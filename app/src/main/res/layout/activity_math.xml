@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,6 +7,28 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center"
     tools:context="com.tutorial.android_tutorial_3.MathActivity">
 
-</RelativeLayout>
+    <EditText
+        android:id="@+id/sayi1EditText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="1.sayıyı girin"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/sayi2EditText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="2.sayıyı girin"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/hesaplaButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Hesapla"/>
+
+</LinearLayout>
