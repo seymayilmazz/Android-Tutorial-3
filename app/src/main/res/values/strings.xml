@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Android-Tutorial-3</string>
+
+
+    <string name="buton1Text">Tıkla 1 </string>
+    <string name="buton2Text">Tıkla 2 </string>
+    <string name="buton3Text">Tıkla 3 </string>
+    <string name="buton4Text">Tıkla 4 </string>
+
+
+    <string name="germany_hello">Hallo Android World!</string>
+
+
+    <string name="connection_error">Bağlantınız yok, lütfen daha sonra tekrar deneyin.</string>
+</resources>
